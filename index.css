@@ -1,0 +1,170 @@
+/*con esto quitaremos los espaciados en toda la pagina*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*en este primer contenedor es toda la información, y el banner*/
+.cont{
+    width: 70%;
+    align-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*En este segundo contenedor unicamente tenemos la información, sin el banner*/
+.contt{
+    border: 1px red solid;
+    margin-top: -4px;
+    margin-bottom: -1px;
+    background: burlywood;
+}
+/*Modificamos el menu de navegación para que queden en la misma linea y no hacia abajo*/
+.nav li{
+    display: inline-block;
+    border: 1px black solid;
+    font-size: 20px;
+    margin: 0.3%;
+    background: burlywood;
+    border-radius: 8px;
+}
+/*Aqui unicamente cumple la funcion de estilizar el area cerca de las opciones de navegación*/
+.nav{
+    background: red;
+    margin-top: -1px;
+}
+/*Este cumple la funcion de organizar el texto e intentar alinearlo*/
+section p, h1{
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.alm{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -8%;
+}
+.snk{
+    width: 30%;
+    margin-top: -26%;
+}
+.cna{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -20%;
+}
+.snack{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.cena{
+    margin-top: 3%;
+}
+footer ul{
+    display: inline-block;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+footer li{
+    list-style: square;
+    font-size: 20px;
+}
+footer{
+    padding-bottom: 2%;
+    background: red;
+}
+#t{
+    list-style: none;
+    color: red;
+}
+#ti{
+    list-style: none;
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size: 28px;
+}
+.banner{
+    width: 100%;
+}
+.bajar{
+    margin-top: 5%;
+}
+#s{
+    margin-bottom: 3%;
+}
+.nav a{
+    color: black;
+}
+.snc{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+#cenas{
+    margin-top: 0.1%;
+}
+footer a{
+    color: black;
+}
+.info{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+.infod{
+    width: 20%;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+.infot{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -6%;
+}
+.text{
+    width: 65%;
+    /*border: 1px solid black;*/
+}
+@media screen and (max-width: 800px){
+    .alm, .snk, .cna, .snc, .info, .infod, .infot{
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+    .cont{
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    p{
+        text-align:justify;
+    }
+    .snack{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .contt img{
+        width: 50%;
+    }
+    body{
+        background: burlywood;
+        width: 100%;
+    }
+    .alm{
+        width: 30%;
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+    .snk{
+        width: 30%;
+        margin-top: 0%;
+    }
+    .cna{
+        width: 30%;
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+    .nav-inf{
+        display: block;
+    }
+}
